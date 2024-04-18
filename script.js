@@ -4,7 +4,7 @@ const Email = document.getElementById("email");
 const number = document.getElementById("number");
 const loc = document.getElementById("loc");
 const f = () => {
-    const url = 'https://randomuser.me/api/?gender=male';
+    const url = 'https://randomuser.me/api/?gender=female';
     fetch(url)
     .then(res => res.json())
     .then(data => dream(data))
