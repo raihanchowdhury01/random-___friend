@@ -597,6 +597,10 @@ video {
   margin-inline-start: 40%;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .w-\[\] {
   width: ;
 }
